@@ -1,0 +1,33 @@
+body {
+  background-color: #C7CBDA;
+}
+
+h1 {
+  font-family: "Arial";
+}
+
+h1, a, hr {
+  color: #7030A0;
+}
+
+hr {
+  width: 80%;
+}
+
+p, li {
+  color: #464653;
+}
+
+p, a, li {
+  font-family: "Times New Roman";
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+div {
+  padding-top: 50px;
+  padding-right: 24px;
+  padding-bottom: 50px;
+  padding-left: 24px;
+}
+
