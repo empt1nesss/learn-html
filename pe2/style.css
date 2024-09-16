@@ -1,0 +1,14 @@
+h1 {
+  font-size: 64;
+}
+
+p {
+  font-size: 32;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 10px;
+}
