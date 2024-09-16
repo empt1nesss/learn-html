@@ -1,9 +1,9 @@
 h1 {
-  font-size: 64;
+  font-size: 64px;
 }
 
-p {
-  font-size: 32;
+p, li {
+  font-size: 32px;
 }
 
 img {
@@ -11,4 +11,13 @@ img {
   height: 300px;
   float: left;
   margin-right: 10px;
+}
+
+table {
+  width: 400px;
+  height: 300px;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
