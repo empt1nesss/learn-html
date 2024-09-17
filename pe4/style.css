@@ -1,0 +1,34 @@
+h1 {
+  font-family: Arial;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  height: 80%;
+}
+
+table, th {
+  border: 1px solid black;
+}
+
+th {
+  padding: 5% 0;
+}
+
+#color1 {
+  background-color: aquamarine;
+}
+
+#color2 {
+  background-color: cornsilk;
+}
+
+#bg1 {
+  background-image: url("./images/img1.webp");
+}
+
+#bg2 {
+  background-image: url("./images/img2.gif");
+}
+
