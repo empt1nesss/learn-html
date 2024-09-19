@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PE5</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Форма</h1>
+    <form>
+      <fieldset>
+        <legend>контактная информация</legend>
+
+        <label for="f_name">Имя: </label>
+        <input type="text" name="f_name">
+        <br>
+
+        <label for="f_surname">Фамилия: </label>
+        <input type="text" name="f_surname">
+        <br>
+
+        <label for="date">Год рождения: </label>
+        <select name="date">
+          <option value="2000">2000</option>
+          <option value="2001">2001</option>
+          <option value="2002">2002</option>
+          <option value="2003">2003</option>
+          <option value="2004">2004</option>
+          <option value="2005">2005</option>
+          <option value="2006">2006</option>
+          <option value="2007">2007</option>
+          <option value="2008">2008</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+        </select>
+        <br>
+
+        <label for="f_city">Город: </label>
+        <input type="text" name="f_city">
+        <br>
+        
+        <label for="f_sex">Пол: </label>
+        <input type="radio" name="f_sex" value="r_female">
+        <label for="r_female">Женский</label>
+        <input type="radio" name="f_sex" value="r_male" checked>
+        <label for="r_male">Мужсой</label>
+      </fieldset>
+
+      <textarea rows="10" cols="100" placeholder="Информация о заказе"></textarea>
+      <br>
+      
+      <input type="checkbox" name="ad">
+      <label for="ad">Я хочу получать рекламу</label>
+      <br>
+
+      <input type="checkbox" name="personal_data" checked disabled>
+      <label for="personal_data">Я хочу, чтобы мои данные раздавались всем подряд</label>
+      <br>
+
+      <button type="reset">Очистить</button>
+      <button type="submit">Отправить!</button>
+    </form>
+  </body>
+</html>
+

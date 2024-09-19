@@ -8,11 +8,11 @@ table {
   height: 80%;
 }
 
-table, th {
+table, td {
   border: 1px solid black;
 }
 
-th {
+td {
   padding: 5% 0;
 }
 
