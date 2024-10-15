@@ -1,0 +1,81 @@
+body {
+  border: 20px solid Maroon;
+  padding: 20px;
+}
+
+h1 {
+  color: purple;
+  background-color: #CCAAFF;
+  text-align: center;
+  border: 2px dashed #DD22FF;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20pt;
+  letter-spacing: 10px;
+  word-spacing: 20px;
+  text-shadow: .1em .1em .2em lightslategray;
+  margin: 1em 0;
+}
+
+h2 {
+  color: #4B0082;
+  background-color: #CC99FF;
+  text-align: center;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18pt;
+  letter-spacing: 8px;
+  word-spacing: 15px;
+  border-bottom: 2px dashed #8244FF;
+  border-top: 2px dotted #8244FF;
+  margin: 1em 0;
+  cursor: help;
+}
+
+ul {
+  width: 55%;
+  list-style-type: square;
+}
+
+li {
+  background-color: Plum;
+}
+
+.table_one {
+  border: 3px solid navy;
+  padding: 20px;
+  border-spacing: 10px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.table_one td {
+  text-align: center;
+  padding: 4px;
+  border: 2px solid #8899CD;
+  cursor: crosshair;
+}
+
+.table_one .subject {
+  border: 0;
+  font-weight: bold;
+}
+
+.table_one .name {
+  text-align: left;
+}
+
+.table_two {
+  color: red;
+  border: 3px dotted #45CCFF;
+  margin: 20px 0;
+  padding: 20px;
+  cursor: none;
+}
+
+.table_two td {
+  border: 2px dashed blue;
+}
+
+.table_two td#green {
+  color: green;
+}
+
