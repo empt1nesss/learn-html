@@ -54,11 +54,6 @@ li {
   cursor: crosshair;
 }
 
-.table_one .subject {
-  border: 0;
-  font-weight: bold;
-}
-
 .table_one .name {
   text-align: left;
 }
