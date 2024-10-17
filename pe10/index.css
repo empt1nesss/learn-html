@@ -31,47 +31,67 @@ h2 {
 }
 
 ul {
-  width: 55%;
+  margin-bottom: 64px;
+}
+
+li:nth-child(2n+1) {
+  background-color: Bisque;
   list-style-type: square;
 }
 
-li {
-  background-color: Plum;
+li:nth-child(even) {
+  background-color: Aquamarine;
+  list-style-type: circle;
 }
 
-.table_one {
+li:first-child {
+  background-color: LightSalmon;
+}
+
+li:last-child {
+  background-color: Fuchsia;
+}
+
+li::selection {
+  color: red;
+  background-color: Lime;
+}
+
+table {
   border: 3px solid navy;
   padding: 20px;
   border-spacing: 10px;
   width: 100%;
-  margin: 20px 0;
-}
-
-.table_one td {
-  text-align: center;
-  padding: 4px;
-  border: 2px solid #8899CD;
   cursor: crosshair;
 }
 
-.table_one .name {
-  text-align: left;
-}
-
-.table_two {
-  color: red;
-  border: 3px dotted #45CCFF;
-  margin: 20px 0;
-  padding: 20px;
-  cursor: none;
-}
-
-.table_two td {
-  border: 2px dashed blue;
+th {
+  background-color: LightBlue;
   padding: 10px;
 }
 
-.table_two td#green {
-  color: green;
+td {
+  padding: 4px;
+}
+
+td.except {
+  border: 2px solid red;
+  text-decoration: line-through;
+}
+
+tr:nth-child(odd) {
+  background-color: Fuchsia;
+}
+
+tr:nth-child(even) {
+  background-color: Aquamarine;
+}
+
+tr:hover {
+  background-color: yellow;
+}
+
+tr:active {
+  background-color: orange;
 }
 
