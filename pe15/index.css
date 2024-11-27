@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(127, 127, 255, 0.64);
+  text-align: center;
+  color: white;
+}
+
+header > p {
+  padding: 20px;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 40px;
+  padding: 0 40px;
+}
+
+.text_block {
+  margin: 0 40px;
+}
+
+img {
+  width: 32vw;
+  height: 16vw;
+  float: left;
+  margin: 10px;
+}
+
+p {
+  margin: 10px;
+}
+
+.separator {
+  clear: both;
+}
+
