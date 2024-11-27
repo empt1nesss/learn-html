@@ -1,0 +1,80 @@
+body {
+  padding: 10px;
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+
+div.date {
+  padding: 3px 6px;
+  background-color: #B3F9D1;
+  border: 1px solid #0BDF02;
+  border-radius: 5px;
+  position: fixed;
+  left: calc(50% - 90px);
+  top: 20px;
+  z-index: 10px;
+}
+
+div.date > p {
+  margin: 0;
+}
+
+div.messages {
+  margin: 55px 24px 0;
+}
+
+div.message {
+  margin: 20px;
+  padding: 3px;
+  border-radius: 5px;
+  position: relative;
+}
+
+div.message > p {
+  margin: 4px;
+}
+
+div.message > p.time {
+  font-size: 14px;
+  color: #666;
+}
+
+div.in {
+  background-color: #F9FDCE;
+  border: 1px solid #FCF594;
+  margin-right: 100px;
+}
+
+div.out {
+  background-color: #BAF9F2;
+  border: 1px solid #6BEBFB;
+  margin-left: 100px;
+}
+
+.in::before, .in::after {
+  content: '';
+  position: absolute;
+  left: -20px; top: 10px;
+  border: 10px solid transparent;
+  border-right: 10px solid #FCF594;
+}
+.in::after {
+  border-right: 10px solid #F9FDCE;
+  left: -19px;
+}
+
+.out::before, .out::after {
+  content: '';
+  position: absolute;
+  right: -20px; top: 10px;
+  border: 10px solid transparent;
+  border-right: 10px solid #6BEBFB;
+  transform: rotate(180deg);
+}
+.out::after {
+  border-right: 10px solid #BAF9F2;
+  right: -19px;
+}
+
