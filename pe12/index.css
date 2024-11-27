@@ -1,0 +1,53 @@
+form {
+  background-color: #C7CBDA;
+  border: 2px solid black;
+  padding: 2px 24px;
+  text-align: center;
+}
+
+h1 {
+  margin: 8px 0;
+  font-size: 20pt;
+}
+
+table {
+  text-align: left;
+  background-color: #E3E5ED;
+  width: 100%;
+  margin: 8px 0;
+}
+
+td {
+  padding: 4px;
+  vertical-align: top;
+  width: 0;
+}
+
+table, tr, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+br {
+  margin: 4px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 98%;
+}
+
+fieldset {
+  border: 2px solid black;
+}
+
+.button_div {
+  width: 50%;
+  float: left;
+}
+
+.button_div > input {
+  width: 75%;
+}
+

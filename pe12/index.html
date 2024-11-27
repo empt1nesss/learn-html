@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PE12</title>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form action="http://www.mysite.ru/lwd/process.php">
+      <h1>Анкета Web-разработчика</h1>
+      <table>
+        <tr>
+          <td>
+            <label for="f_name">Ваше имя:</label>
+            <br>
+            <label for="f_pass">Пароль:</label>
+          </td>
+          <td>
+            <input type="text" name="f_name" pattern="[a-zA-Zа-яА-Я0-9 \-]" required>
+            <br>
+            <input type="password" name="f_pass" pattern="[a-zA-Zа-яА-Я0-9 \-]" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="f_email">E-mail:</label>
+            <br>
+            <label for="f_call">Телефон:</label>
+          </td>
+          <td>
+            <input type="email" name="f_email">
+            <br>
+            <input type="text" name="f_call" pattern="[a-zA-Zа-яА-Я0-9 \-]" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="f_sex">Ваш пол:</label>
+            <br>
+            <label for="f_age">Ваш возраст:</label>
+          </td>
+          <td>
+            <input type="radio" name="f_sex" value="r_male" checked>
+            <label for="r_male">М</label>
+            <input type="radio" name="f_sex" value="r_female">
+            <label for="r_female">Ж</label>
+            <br>
+            <input type="range" name="f_age" value="31" min="18" max="80">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="f_spec">Ваша специализация</label>
+            <br>
+            <label for="f_skills">Ваши навыки:</label>
+          </td>
+          <td>
+            <select name="f_spec">
+              <option value="web-designer">Web-дизайнер</option>
+            </select>
+            <br>
+            <input type="checkbox" name="html">
+            <label for="html">знание HTML</label>
+            <br>
+            <input type="checkbox" name="java">
+            <label for="java">знание Java</label>
+            <br>
+            <input type="checkbox" name="php">
+            <label for="php">знание PHP</label>
+            <br>
+            <input type="checkbox" name="ps">
+            <label for="ps">знание Adobe Photoshop</label>
+            <br>
+            <input type="checkbox" name="flash">
+            <label for="flash">знание Flash</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="about">Дополнительные сведения о себе:</label>
+          </td>
+          <td>
+            <input type="text" name="about" placeholder="Свободно владею английским">
+          </td>
+        </tr>
+      </table>
+      <fieldset>
+        <legend align="center">Результаты надо:</legend>
+        <div class="button_div">
+          <input type="submit" value="Отправить">
+        </div>
+        <div class="button_div"> 
+          <input type="reset" value="Удалить">
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
+
