@@ -68,6 +68,11 @@ header > img {
 
 b {
   font-family: poppins600;
+  font-weight: normal;
+}
+
+.button_container {
+  display: flex;
 }
 
 .button {
@@ -89,6 +94,7 @@ b {
 
 h1 {
   font-family: poppins700;
+  font-weight: normal;
   font-size: 56px;
   margin: 100px 0 0;
 }
@@ -110,6 +116,7 @@ h1 {
 
 h2 {
   font-family: poppins500;
+  font-weight: normal;
   font-size: 16px;
   margin: 0;
   width: 96px;
@@ -125,4 +132,77 @@ h2 {
   width: 50%;
   height: 2px;
   background-color: black;
+}
+
+#portfolio > .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.room_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.room_info:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.room_info > img {
+  width: 66%;
+}
+
+.room_review {
+  width: 24%;
+}
+
+.reviewer_info {
+  position: absolute;
+  background-color: white;
+  padding: 17px 52px 17px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.05);
+}
+
+.reviewer_info > .text > h4 {
+  font-family: poppins600;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0;
+}
+
+.reviewer_info > .text > p {
+  margin: 0;
+  font-size: 18px;
+  color: #9C9C9C;
+}
+
+.content div:nth-child(odd) > .reviewer_info {
+  margin: 0 0 410px 54vw;
+}
+
+.content div:nth-child(even) > .reviewer_info {
+  margin: 0 50vw 410px 0;
+}
+
+.room_review {
+  display: flex;
+  flex-direction: column;
+}
+
+.room_review > h3 {
+  font-family: poppins600;
+  font-weight: normal;
+  font-size: 24px;
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.room_review > p {
+  color: #9C9C9C;
+  margin: 0 0 40px;
 }
