@@ -8,16 +8,16 @@
   <body>
     <div id="body">
       <header>
-        <img src="./assets/images/logo.svg" alt="logo">
+        <a href="#home"><img src="./assets/images/logo.svg" alt="logo"></a>
         <div id="navigation">
-          <a href="">Home</a>
-          <a href="">About Us</a>
-          <a href="">Services</a>
-          <a href=""><b>Out Terms</b></a>
-          <a href=""><div class="button_container"><p class="button">Contact Us</p></div></a>
+          <a href="#home">Home</a>
+          <a href="#portfolio">About Us</a>
+          <a href="#service">Services</a>
+          <a href="#terms"><b>Out Terms</b></a>
+          <a href="#contact_invite"><div class="button_container"><p class="button">Contact Us</p></div></a>
         </div>
-        <br>
       </header>
+      <br>
       <div id="home">
         <h1>Portfolio</h1>
         <p>
@@ -38,7 +38,11 @@
               <p>
                 Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.
               </p>
-              <div class="button_container"><p class="button">See More</p></div>
+              <a href="#contact">
+                <div class="button_container">
+                  <p class="button">See More</p>
+                </div>
+              </a>
             </div>
             <div class="reviewer_info">
               <img src="./assets/images/ceo_avatar.png" alt="ceo_avatar">
@@ -55,7 +59,11 @@
               <p>
                 Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.
               </p>
-              <div class="button_container"><p class="button">See More</p></div>
+              <a href="#contact">
+                <div class="button_container">
+                  <p class="button">See More</p>
+                </div>
+              </a>
             </div>
             <div class="reviewer_info">
               <img src="./assets/images/ceo_avatar.png" alt="ceo_avatar">
@@ -72,7 +80,11 @@
               <p>
                 Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.
               </p>
-              <div class="button_container"><p class="button">See More</p></div>
+              <a href="#contact">
+                <div class="button_container">
+                  <p class="button">See More</p>
+                </div>
+              </a>
             </div>
             <div class="reviewer_info">
               <img src="./assets/images/ceo_avatar.png" alt="ceo_avatar">
@@ -89,7 +101,11 @@
               <p>
                 Online learning with us does not interfere with your daily life. because learning can be done anytime and anywhere.
               </p>
-              <div class="button_container"><p class="button">See More</p></div>
+              <a href="#contact">
+                <div class="button_container">
+                  <p class="button">See More</p>
+                </div>
+              </a>
             </div>
             <div class="reviewer_info">
               <img src="./assets/images/ceo_avatar.png" alt="ceo_avatar">
@@ -111,7 +127,7 @@
           <p>
             Customize your interior design into a dream place with the best designers and quality furniture. We try our best to fulfill your expectations.
           </p>
-          <div class="card_list">
+          <div class="card_list" id="terms">
             <div class="card">
               <div class="circle"></div>
               <h4>High Quality</h4>
@@ -144,7 +160,11 @@
           <p>
             Contact us below to work together to build your amazing interior
           </p>
-          <div class="button_container"><p class="button">Contact Us</p></div>
+          <a href="#contact">
+            <div class="button_container">
+              <p class="button">Contact Us</p>
+            </div>
+          </a>
         </div>
       </div>
       <div id="contact">
@@ -152,9 +172,32 @@
           <img src="./assets/images/logo.svg" alt="logo">
           <h3>One of the best furniture agency.</h3>
         </div>
-        <div class="div_half_width">
+        <div class="div_half_width" id="contact_info">
+          <div class="text">
+            <div class="dot"></div>
+            <p>Enter  your email to get the latest news</p>
+          </div>
+          <div class="email_input">
+            <div class="field">
+              <form>
+                <input type="email" name="email" placeholder="Email Address">
+                <input type="submit" value="">
+              </form>
+            </div>
+            <div class="hr"></div>
+          </div>
+          <div id="follow_us">
+            <p>Follow us On</p>
+            <div class="icons">
+              <a href="https://www.facebook.com"><img src="./assets/images/facebook.svg" alt="facebook-icon"></a>
+              <a href="https://www.instagram.com"><img src="./assets/images/instagram.svg" alt="instagram-icon"></a>
+              <a href="https://www.tiktok.com"><img src="./assets/images/tiktok.svg" alt="tiktok-icon"></a>
+              <a href="https://www.youtube.com"><img src="./assets/images/youtube.svg" alt="youtube-icon"></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </body>
 </html>
+
