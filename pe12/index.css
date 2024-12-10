@@ -42,6 +42,10 @@ fieldset {
   border: 2px solid black;
 }
 
+legend {
+  margin: auto;
+}
+
 .button_div {
   width: 50%;
   float: left;

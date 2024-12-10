@@ -51,12 +51,13 @@ body {
 }
 
 header {
+  width: 100%;
   position: sticky;
   display: flex;
   justify-content: space-between;
   margin-left: -120px;
   margin-top: -20px;
-  padding: 8px 0 8px 120px;
+  padding: 0 120px;
   top: 0;
   background-color: white;
   z-index: 10;
@@ -64,6 +65,10 @@ header {
 
 header > a {
   display: flex;
+}
+
+header > a > img {
+  height: 52px;
 }
 
 #navigation {

@@ -34,7 +34,8 @@ h2 {
 }
 
 .text_block {
-  margin: 0 40px;
+  margin: 0 40px 40px;
+  clear: both;
 }
 
 img {
@@ -46,9 +47,5 @@ img {
 
 p {
   margin: 10px;
-}
-
-.separator {
-  clear: both;
 }
 
